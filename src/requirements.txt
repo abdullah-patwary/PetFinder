@@ -1,0 +1,2 @@
+#cloud_journey/src/requirements.txt
+django
