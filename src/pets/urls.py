@@ -6,5 +6,5 @@ from pets.views import PetsListView, PetCreateView
 urlpatterns = [
     path("all/", PetsListView.as_view(), name="pet_list"),
     path("add/", PetCreateView.as_view(), name="pet_form"),
-    
+    # path("pets/<int:pk>/", PetDetailView.as_view(), name="pet_detail"), 
 ]

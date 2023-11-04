@@ -1,2 +1,4 @@
 #cloud_journey/src/requirements.txt
 django
+flake8
+
